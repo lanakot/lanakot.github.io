@@ -1,0 +1,163 @@
+#jumbotron
+{
+    color: white;
+    min-height: 500px;
+    background-image: url('img/main-piano.jpg');
+    background-size: cover;
+}
+
+#jumbo-h2
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#jumbo-h1
+{
+    margin-top: 50px;
+}
+
+.bg-purple
+{
+    background-color: #5d2aad;
+    border-color: #5d2aad;
+}
+
+.mh-100
+{
+    max-height: 100%;
+}
+
+.mw-100
+{
+    max-width: 100%;
+}
+
+.spaced-out
+{
+    line-height: 30px;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.media-item
+{
+    padding: 30px;
+    width: 420px;
+}
+
+.media-item embed
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.media-item p
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.contact-item
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p
+{
+    font-size: 120%;
+}
+
+@media only screen and (max-width: 799px) {
+    .navbar-trans
+    {
+        background-color: #5d2aad !important;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .navbar-trans
+    {
+        background-color: transparent;
+        transition: 0.3s;
+    }
+}
+
+.navbar-purple
+{
+    background-color: #5d2aad !important;
+    transition: 0.3s;
+}
+
+.centered
+{
+    width: 100%;
+}
+
+.centered
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.pad-30
+{
+    padding: 30px;
+}
+
+.shadow-grey
+{
+    box-shadow: 5px 5px 5px #f0f0f0;
+}
+
+.main-card
+{
+    max-width: 1000px;
+/*    background-color: #f7f7f7;*/
+}
+
+@media only screen and (max-width: 800px) {
+    .main-card
+    {
+        width: 100%;
+    }
+}
+
+h1
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.circle-img
+{
+    max-width: 80%;
+    height: 150px;
+}
+
+.service-row
+{
+    margin-bottom: 40px;
+}
+
+.price
+{
+    padding: 5px;
+    display: initial;
+    background-color: #50c070;
+    color: white;
+}
+
+.nav-link
+{
+    color: white !important;
+}
+
+.form-group
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
